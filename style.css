@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+
+:root{
+
+--Orange: hsl(25, 97%, 53%);
+--White: hsl(0, 0%, 100%);
+--LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+}
+body{
+    background: var(--VeryDarkBlue);
+    color:azure;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+    font-weight: 400;
+}
+.nutro{
+    background:linear-gradient(var(--DarkBlue),var(--VeryDarkBlue)); 
+    border-radius: 10px 5px 20px 15px;
+    width: 400px;
+    padding:50px;
+    box-shadow: 0 0 5px var(--VeryDarkBlue);
+    
+}
+.hii{
+    width:35px;
+    height: 35px;
+    margin-bottom: 40px;
+    border-radius: 23px;
+    background: var(--DarkBlue);
+    background-color: hsla(216, 12%, 54%,00.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    margin-bottom: 40px;
+}
+p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: var(--MediumGrey);
+    line-height:1.4;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+}
+ul li{
+       width:35px;
+       height: 35px;
+       background-color: hsla(216, 12%, 54%,00.1);
+       border-radius: 23px;
+       display:flex;
+       align-items: center;
+       justify-content: center;
+       margin-bottom: 20px;
+}
+ul li.active{
+    background: var(--LightGrey);
+}
+ul li.active a{
+    color: var(--White);
+}
+ul li a {
+    text-decoration: none;
+    color: var(--MediumGrey);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li:hover{
+    background: var(--Orange);
+    
+}
+ul li:hover a{
+    color: var(--White);
+}
+.toi{
+    color: var(--White);
+    text-decoration: none;
+    background: var(--Orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding:11px;
+    width: 100%;
+}
+.toi:hover{
+    background: var(--White);
+    color: var(--Orange);
+}
+.lemon{
+    color: var(--Orange);
+    background-color: hsla(216, 12%, 54%,00.1);
+    margin: 50px 50px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.axe{
+    text-align: center;
+}
